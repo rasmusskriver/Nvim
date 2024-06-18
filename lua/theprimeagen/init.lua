@@ -9,9 +9,12 @@ local ThePrimeagenGroup = augroup('ThePrimeagen', {})
 local yank_group = augroup('HighlightYank', {})
 
 -- Reload function
+-- vim.cmd('set autochdir')
 function R(name)
     require("plenary.reload").reload_module(name)
 end
+
+vim.opt.clipboard = 'unnamedplus'
 
 -- Add filetype
 vim.filetype.add({
