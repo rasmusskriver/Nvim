@@ -1,5 +1,6 @@
 ### ThePrimeagen's init.lua
 laver sku min egen
+ja ajajajajaj
 
 ### Change Log
 * [33eee9ad](https://github.com/ThePrimeagen/init.lua/commit/33eee9ad0c035a92137d99dae06a2396be4c892e) initial commits
